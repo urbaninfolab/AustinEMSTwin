@@ -1,0 +1,110 @@
+/* EMS Response Time Map Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.page-wrapper {
+    bottom: 0;
+    position: absolute;
+}
+
+.page-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.page-description {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.page-wrapper #map {
+    height: 800px;
+    width: 1400px;
+    margin-top: 10px;
+}
+
+.page-wrapper .response-time-info {
+    padding: 5px;
+    background: #87CEEB;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.page-wrapper span {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* EMS popup styles */
+.ems-popup {
+    font-family: sans-serif;
+}
+
+.ems-popup .block-group {
+    font-size: 14px;
+    font-weight: bold;
+    color: #c00;
+    margin-bottom: 5px;
+}
+
+.ems-popup .response-time {
+    font-size: 16px;
+    color: #0066cc;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.ems-popup .demographics {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Legend styles */
+.legend {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.legend h4 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.legend-item {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+/* Choropleth color classes */
+.ems-fast {
+    fill: #0066cc;
+}
+
+.ems-medium {
+    fill: #4da6ff;
+}
+
+.ems-slow {
+    fill: #ff9900;
+}
+
+.ems-very-slow {
+    fill: #ff3300;
+}
+
+/* Hover effects */
+.blockgroup:hover {
+    stroke: #000;
+    stroke-width: 2px;
+}
+
